@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <title>Faça sua Avaliação</title>
+</head>
+<body >
+
+ <!-- ancora -->
+ <h1 id="inicio"></h1>
+      
+ <!-- menu -->
+  <nav id="menu1"> 
+      <ul> 
+        <li><a href="C:\Users\Ana Laura\Documents\Atividade 03\index.html" id="corpo"> HOME</a></li>
+       </ul> 
+       </nav>
+
+    <h1 id="titulo">FAÇA SUA AVALIAÇÃO</h1>
+    <p id="corpo1"> A sua aviliação é de extrema importância para podermos</p>
+        <p id="corpo1">continuar com a qualidade de nosso site! </p>
+    <hr id="linha"/>
+       <br>
+    <div id="flex">
+    <!-- formulário -->
+    <form id="form" action="pagina_sucesso.html" method="post">
+        <div id="quad">
+            <h1 id="titulo2">PREENCHA SEUS DADOS</h1>
+            <hr id="linha"/>
+           
+            <div id="quad">
+               <h3 id="legenda" >Dados Pessoais</h3>
+               <br/>
+        <table>
+            <tr>
+                <td><label for="Login"> <b>Login: </b></label></td>
+                <td><input type="text" id="campo"  name="Login" placeholder="Digite seu login" required size="40"></td>
+             
+        <tr>
+            <td><label for="Nome"> <b>Nome Completo:</b></label></td>
+            <td><input type="text" id="campo" name="nome" placeholder="Digite seu nome completo" required size="40"></td>
+        </tr>
+        <tr>
+            <td><label for="nomecompleto"> <b>Nome Social:</b></label></td>
+            <td><input type="text" id="campo" name="nomecompleto" placeholder="Digite seu nome social" size="40"></td>
+        </tr>
+        <tr>
+            <td><label for="cpf"> <b>CPF:</b></label></td>
+            <td><input type="text" id="campo" name="cpf" placeholder="Digite seu cpf" size="40"></td>
+        </tr>
+       <tr>
+         <td><label for="idade"><b>Idade: </b></label></td>
+         <td><input type="number" id="campo" name="idade" placeholder="Digite sua idade" required size="40"></td>
+       </tr>
+        <tr>
+            <td><label for="DataNascimento"> <b>Data de Nascimento: </b></label></td>
+            <td><input type="date" id="campo" name="DataNascimento" required size="20"></td>
+        </tr>
+        <tr>
+            <td><label for="Sexo"> <b>Sexo: </b></label></td>
+            <td><input type="radio" id="Sexo" name="Sexo" required size="2">Masculino
+            <input type="radio" id="Sexo" name="Sexo" required size="2">Feminino <input type="radio" id="Sexo" name="Sexo" required size="2">Outros </td>
+        </tr>
+        <td><label for="Est.Civil"> <b>Est.Civil: </b></label></td>
+        <td><select name="UF" id="campo" >
+            <option value="Seleione">Selecione:</option>
+            <option value="Solteiro">Solteiro</option>
+            <option value="Casado">Casado</option>
+            <option value="Divorciado">Divorciado</option>
+        </td>
+        </table>
+    </div>
+    <br/>
+
+    <div id="quad">
+        <h3 id="legenda">Dados de Endereço</h3>
+        <br/>
+    <table>
+        <tr>
+            <td><label for="endereco"> <b>Endereço: </b></label></td>
+            <td><input type="text" id="campo" name="endereco" placeholder="Digite seu endereço" size="20"></td>
+            <td><label for="Cidade"> <b>Cidade: </b></label></td>
+             <td><input type="text" id="campo" name="Cidade" placeholder="Digite sua cidade" size="20"></td>
+        </tr>
+        
+            <tr>
+                <td><label for="bairro"> <b>Bairro: </b></label></td>
+                <td><input type="text" name="Bairro" id="campo" placeholder="Digite seu bairro" size="20"></td>
+                <td><label for="UF"> <b>UF: </b></label></td>
+                <td><select name="UF" id="campo" id="UF">
+                    <option value="Seleione">Selecione:</option>
+                    <option value="RO">RO</option>
+                    <option value="AC">AC</option>
+                    <option value="AM">AM</option>
+                    <option value="RR">RR</option>
+                    <option value="PA">PA</option>
+                    <option value="AP">AP</option>
+                    <option value="MA">MA</option>
+                    <option value="PI">PI</option>
+                    <option value="CE">CE</option>
+                    <option value="RN">RN</option>
+                    <option value="PB">PB</option>
+                    <option value="PE">PE</option>
+                    <option value="AL">AL</option>
+                    <option value="SE">SE</option>
+                    <option value="BA">BA</option>
+                    <option value="MG">MG</option>
+                    <option value="ES">ES</option>
+                    <option value="RJ">RJ</option>
+                    <option value="SP">SP</option>
+                    <option value="PR">PR</option>
+                    <option value="SC">SC</option>
+                    <option value="RS">RS</option>
+                    <option value="MS">MS</option>
+                    <option value="MT">MT</option>
+                    <option value="GO">GO</option>
+                    <option value="DF">DF</option>
+                </select></td>
+                
+            </tr>
+            <tr>
+                <td><label for="cep"> <b>CEP: </b></label></td>
+                <td><input type="text" id="campo" name="cep" placeholder="Digite seu CPF" size="20"></td>
+    
+                
+            </tr>
+         
+            
+            
+    
+        </table>
+    </div>
+    <br/>
+
+    <div id="quad">
+        <h3 id="legenda">Dados de Contato</h3>
+        <table>
+        <tr>
+            <td><label for="telefone"> <b>Telefone: </b></label></td>
+            <td><input type="text" id="campo" name="telefone" placeholder="Digite seu telefone" required size="0"></td>
+            <td><label for="Fax"> 
+        </tr>
+       
+        <tr>
+            <td><label for="Celular"> <b>Celular: </b></label></td>
+            <td><input type="text" id="campo" name="Celular" placeholder="Digite seu celular" required size="40"></td>
+         
+        </tr>
+        <tr>
+            <td><label for="email"> <b>E-mail:</b></label></td>
+            <td><input type="email" id="campo" name="email" placeholder="Digite seu e-mail" required size="40"></td>
+        </tr>
+    </table>
+    </div>
+</table>
+<fieldset id="quad">
+        <p>
+            Qual seu nível de satisfação com o nosso site?
+        </p>
+        
+    
+
+   
+    <table>
+        <tr>
+          <br>
+            pouco satisfeito
+            <input type="range" name="satisfacao" min="0" max="10">
+            muito satisfeito
+
+        </tr>
+        <tr>
+            <td><label for="msg"> <b>Deixe um comentário:</b></label></td>
+            
+       
+        <td><br/><textarea cols="40" rows="5" id="camp"></textarea></td></tr>
+       
+        
+    </table>
+    <input type="checkbox">Autorizo o envio das minhas informações.
+</fieldset>
+<div>
+    <table>
+        <input type="reset" name="Resetar" id="botao1"/>
+        <input type="submit" value="Enviar" id="botao2" name="Enviar" formtarget="_blank"/>
+       
+    </table>
+    </div>
+</div>
+</form>
+</div>  
+
+</body>
+</html>

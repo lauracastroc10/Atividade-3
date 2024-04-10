@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+#bodyob{
+    background-color: rgb(172, 77, 0);
+}
+#principal {
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: left;
+    margin: 1%;
+    font-family: "Alata", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#texto {
+    color: rgb(172, 77, 0);
+    font-size: 20px;
+    margin: 1%;
+    text-align: center;
+    border-radius: 10px;
+    background-color: white;
+    max-height: 15%;
+    width: 60%;
+    font-family: "Alata", sans-serif;
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+#botao{
+    border: solid 1px rgb(6, 66, 66);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    color: rgb(253, 243, 243);
+    background-color: rgb(6, 66, 66);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+#botao:hover{
+    background-color: rgb(111, 182, 176);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2)
+}

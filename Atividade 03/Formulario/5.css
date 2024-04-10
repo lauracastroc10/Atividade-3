@@ -1,0 +1,159 @@
+/* fontes */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Passion+One:wght@400;700;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+body {
+    background: linear-gradient(217deg, rgb(239, 245, 245), rgb(243, 221, 202) 70%),
+    linear-gradient(127deg, rgba(55,200,200,.8), rgba(55,200,200,0) 70%),
+    linear-gradient(336deg, rgb(172, 77, 0), rgb(255, 187, 132) 70%);
+}
+#titulo {
+    color: rgb(172, 77, 0);
+    
+    font-family: "Passion One", sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    font-style: normal;
+    margin-top: 1%;
+    text-align-last: center;
+}
+/* menu */
+#menu1 ul { padding: 5px;
+    margin:0px;
+    border-radius: 10px;
+    background-color:rgb(142, 168, 168);
+    list-style:none;
+    margin-top: 0%;
+  }
+  #menu1 ul li { display: inline; }
+  #menu1 ul li a { 
+    padding: 2px 10px; 
+    display: inline-block; /* visual do link */
+    border-radius: 10px; 
+    background-color:rgb(142, 168, 168); 
+    color: #333; 
+    text-decoration: none; 
+    border-bottom:3px solid #EDEDED; 
+}
+#menu1 ul li a:hover { 
+    background-color:#D6D6D6;
+    color: #6D6D6D;
+    border-bottom:3px solid rgb(6, 66, 66);
+  }
+
+/* texto menuu */
+#corpo {
+    margin: 1%;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+#corpo1 {
+    margin: 1%;
+    color: rgb(0, 0, 0);
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    text-align: center;
+}
+/* linha */
+#linha {
+    width: 400px;
+    height: 3px;
+    border-radius: 10px;
+    background-color:#6D6D6D;
+    opacity: 50%;
+}
+#flex{
+    margin-top: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#form{
+    /* margin: center; 
+     margin-left: 350px; */
+    mask-position: 0%;
+    position: absolute;
+
+    box-shadow: black;
+    color: rgb(0, 0, 0) ;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    display: grid;
+    grid-template-columns: auto 2fr;
+    align-items: left;
+    border-top: 0cm;
+    padding-bottom: 5px;
+    gap: 10px;
+    text-align: justify;
+}
+#quad {
+    border-radius: 10px;
+    background-color: #f8f8f89a;
+    color: #000000;
+    margin: 23px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+#titulo2 {
+    color: rgb(6, 66, 66);
+    
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-size: 30px;
+    font-style: normal;
+    margin-top: 1%;
+    text-align-last: center;
+}
+#campo{
+    border-radius: 5px;
+    border-color: rgba(255, 255, 255, 0.965);
+    background-color: #f0f0f0;
+}
+#camp{
+    border-radius: 5px;
+    border-color: rgba(88, 88, 88, 0.965);
+    background-color: #f0f0f0;
+}
+#legenda{
+    background-color:  rgb(172, 77, 0);
+    border-radius: 5px;
+    text-align-last: center;
+    font-weight: 500;
+    color: white;
+    font-size: "Alata", sans-serif;
+    width: 200px;
+}
+#botao1{
+    border: solid 1px rgb(6, 66, 66);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    color: rgb(253, 243, 243);
+    background-color: rgb(6, 66, 66);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+#botao1:hover{
+    background-color: rgb(111, 182, 176);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2)
+}
+#botao2{
+    border: solid 1px rgb(6, 66, 66);
+    border-radius: 5px;
+    height: 30px;
+    width: 300px;
+    color: rgb(253, 243, 243);
+    background-color: rgb(6, 66, 66);
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+}
+#botao2:hover{
+    background-color: rgb(111, 182, 176);
+    color: rgb(0, 0, 0);
+    transform: scale(1.2)
+}
